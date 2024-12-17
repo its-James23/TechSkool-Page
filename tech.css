@@ -1,0 +1,444 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  max-width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+}
+#pose {
+  width: 160px;
+  height: 40px;
+  margin-left: 0px;
+}
+#uno {
+  display: flex;
+  background-color: #f5f5f5;
+  width: fit-content;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 110px;
+  padding-left: 27px;
+  height: 400px;
+}
+.image {
+  width: 500px;
+}
+.red {
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  background-color: red;
+  padding: 8px;
+  margin-right: 14px;
+}
+#dark {
+  background-color: aliceblue;
+  color: rgb(28, 46, 95);
+  padding: 8px;
+  border: 2px solid rgb(28, 46, 95);
+  border-radius: 3px;
+}
+h1 {
+  font-size: 80px;
+  color: rgb(28, 46, 95);
+  margin-bottom: 0.5px;
+}
+#dos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+h2 {
+  color: rgb(28, 46, 95);
+  font-size: 35px;
+}
+#rr {
+  width: 800px;
+}
+#color {
+  background-color: darkblue;
+  padding: 8px;
+  color: white;
+  border-radius: 3px;
+  font-weight: 600;
+  border: 1px solid rgb(228, 228, 241);
+}
+#ppp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 25px;
+}
+.part {
+  height: 240px;
+  width: 350px;
+  padding: 5px 0px 15px 0px;
+  box-shadow: 2px 2px 2px 2px gainsboro;
+  border: 0.5px solid gainsboro;
+  border-radius: 7px;
+  background-color: rgb(255, 254, 254);
+  margin-right: 39px;
+}
+.parts {
+  width: 350px;
+  padding: 5px 0px 15px 0px;
+  height: 240px;
+  box-shadow: 2px 2px 2px 2px gainsboro;
+  border: 0.5px solid gainsboro;
+  border-radius: 7px;
+  background-color: rgb(255, 254, 254);
+}
+#re {
+  border: 0.5px solid red;
+  border-radius: 9px;
+  width: 100px;
+  background-color: red;
+  color: white;
+  font-size: 13px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#po {
+  border: 0.1px solid gray;
+  border-radius: 19px;
+  width: 100px;
+  background-color: gray;
+  color: white;
+  align-items: center;
+  font-size: 13px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+}
+.opt {
+  text-align: left;
+  display: flex;
+  justify-content: left;
+  margin-left: 10px;
+  text-decoration: none;
+  color: rgb(28, 46, 95);
+  font-weight: bold;
+}
+.opt:hover {
+  color: red;
+  transition: ease-in 1s;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding-top: 30px;
+}
+.prop ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.prop ul li {
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+.prop ul li a {
+  text-decoration: none;
+  color: rgb(28, 46, 95);
+}
+.prop ul li select {
+  border: none;
+  background-color: #f5f5f5;
+  color: rgb(28, 46, 95);
+  font-size: 15px;
+}
+.prop {
+  margin-left: 300px;
+}
+.prop ul li a:hover {
+  color: red;
+  transition: ease-in 1s;
+}
+.prop ul li select:hover {
+  color: red;
+  transition: ease-in 1s;
+  cursor: pointer;
+}
+.prop ul li button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  width: 100px;
+  font-size: 15px;
+}
+.prop ul li button:hover {
+  background-color: rgb(28, 46, 95);
+  cursor: pointer;
+  box-shadow: 0px 0px 2px 0px black;
+  border: 1px solid rgb(28, 46, 95);
+  transition: ease-in-out 0.5s;
+}
+#pose {
+  margin-left: 16px;
+}
+#red {
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  background-color: red;
+  padding: 8px;
+  margin-right: 14px;
+  font-weight: 600;
+}
+#red:hover {
+  background-color: rgb(209, 209, 19);
+  transition: ease-in 0.4s;
+  border: 1px solid rgb(209, 209, 19);
+}
+#color:hover {
+  background-color: red;
+  border: 1px solid red;
+  transition: ease-in 0.4s;
+}
+#tres {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.712);
+  padding: 8px;
+}
+.again {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#fee {
+  text-align: center;
+}
+.kop {
+  width: 370px;
+  height: 250px;
+  border: 0.1px solid rgb(28, 46, 95);
+  border-radius: 7px;
+  padding: 0px 8px 8px 14px;
+  margin-right: 50px;
+  padding-bottom: 20px;
+}
+.minor {
+  color: rgb(28, 46, 95);
+  font-size: 22px;
+  font-weight: 700;
+}
+.kops {
+  width: 400px;
+  height: 250px;
+  padding: 0px 8px 8px 14px;
+  padding-bottom: 20px;
+  border: 0.1px solid rgb(28, 46, 95);
+  border-radius: 7px;
+}
+.another {
+  border: 1px solid red;
+  border-radius: 4px;
+  padding: 8px;
+  width: 100px;
+  font-size: 15px;
+  color: white;
+  background-color: red;
+}
+.another:hover {
+  background-color: rgb(209, 209, 19);
+  border: 1px solid rgb(209, 209, 19);
+  transition: ease-in 1s;
+  cursor: pointer;
+}
+.danfo {
+  text-decoration: none;
+  margin-left: 16px;
+  color: rgb(28, 46, 95);
+}
+#quatro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#queue {
+  text-align: center;
+  margin-bottom: 15px;
+}
+#pew {
+  display: flex;
+  flex-direction: column;
+}
+.woo {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.yep {
+  padding: 15px;
+  width: 200px;
+  height: 89px;
+  margin-right: 20px;
+  box-shadow: 1px 1px 1px 1px gainsboro;
+  border-radius: 3px;
+  border: 1px gainsboro solid;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.yep:hover {
+  cursor: pointer;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px red;
+  transition: ease-out 999ms;
+}
+#cinqo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 18px;
+  align-items: center;
+}
+#meh {
+  text-align: center;
+}
+iframe {
+  margin-top: 13px;
+}
+.boo {
+  margin-bottom: 15px;
+  margin-top: 13px;
+}
+#for {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.square {
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
+  box-shadow: 0.5px 0.5px 0.5px rgb(196, 196, 196);
+  margin-top: 90px;
+  width: 300px;
+}
+.square h2 {
+  color: red;
+  margin-bottom: 0px;
+}
+.square p {
+  color: #c0c0c0;
+}
+#seize {
+  text-align: center;
+  background-color: rgb(250, 250, 250);
+  padding: 10px;
+  margin-top: 25px;
+}
+#seize h2 {
+  font-size: 50px;
+}
+#seize button {
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  height: 40px;
+  width: 160px;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid red;
+  text-align: center;
+}
+#seize button:hover {
+  background-color: rgb(224, 224, 1);
+  border: 1px solid rgb(224, 224, 1);
+  transition: ease-in-out 400ms;
+}
+footer {
+  background-color: #242f58;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+}
+#stench {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+#pows {
+  width: 300px;
+  margin-left: 0px;
+  text-align: left;
+}
+.pw {
+  width: 230px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.pw #hem img {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 12px;
+}
+hr {
+  width: 900px;
+}
+.pow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pow div ul li {
+  list-style: none;
+  margin-left: 0px;
+  margin-right: 5px;
+  margin-bottom: 12px;
+}
+
+.pow div ul li a {
+  color: white;
+  text-decoration: none;
+}
+.pow div ul li a:hover {
+  color: #fcba07;
+  transition: ease-in-out 300ms;
+}
+#stench ~ p a {
+  color: white;
+}
+#stench ~ p a:hover {
+  color: red;
+  transition: ease-out 300ms;
+}
