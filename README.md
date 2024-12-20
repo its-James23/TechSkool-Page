@@ -1,1 +1,1 @@
-# TechSkool_clone
+# TechSkool-Page
