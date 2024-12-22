@@ -9,6 +9,7 @@ body {
   width: 160px;
   height: 40px;
   margin-left: 0px;
+  margin-right: 500px;
 }
 #uno {
   display: flex;
